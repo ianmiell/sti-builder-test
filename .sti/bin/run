@@ -1,0 +1,11 @@
+
+#!/bin/bash -e
+#
+# STI run script for the 'sti-builder-test' image.
+# The run script execute the server that runs your application.
+#
+# For more informations see the documentation:
+#	https://github.com/openshift/source-to-image/blob/master/docs/builder_image.md
+#
+
+exec <start your server here>

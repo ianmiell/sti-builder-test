@@ -1,0 +1,13 @@
+
+#!/bin/bash -e
+cat <<EOF
+This is a STI sti-builder-test image:
+To use it, install STI: https://github.com/openshift/source-to-image
+
+Sample invocation:
+
+sti build git://<source code> sti-builder-test <application image>
+
+You can then run the resulting image via:
+docker run <application image>
+EOF

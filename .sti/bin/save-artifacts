@@ -1,0 +1,12 @@
+
+#!/bin/sh -e
+#
+# STI save-artifacts script for the 'sti-builder-test' image.
+# The save-artifacts script streams a tar archive to standard output.
+# The archive contains files and folder you want to move from a previous build
+# to a new build.
+#
+# For more informations see the documentation:
+#	https://github.com/openshift/source-to-image/blob/master/docs/builder_image.md
+#
+# tar cf - <list of files and folders>
