@@ -13,6 +13,6 @@ ENV STI_NODEJS_VERSION 0.10
 COPY ./.sti/bin /usr/local/sti
 RUN chmod +x /usr/local/sti/*
 
-USER default
+#USER default
 # TODO: Set the default port for applications built using this image
 # EXPOSE 3000
