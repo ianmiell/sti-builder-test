@@ -2,7 +2,7 @@
 IMAGE_NAME = sti-builder-test
 
 build:
-	docker build -t $(IMAGE_NAME) .
+	docker build --no-cache -t $(IMAGE_NAME) .
 
 .PHONY: test
 test:

@@ -12,6 +12,7 @@ USER default
 # TODO (optional): Copy the builder files into /opt/openshift
 # COPY ./<builder_folder>/ /opt/openshift/
 COPY ./.sti/bin /usr/local/sti
+RUN chmod +x /usr/local/sti/*
 
 # TODO: Set the default port for applications built using this image
 # EXPOSE 3000
