@@ -1,4 +1,3 @@
-`
 #!/bin/bash -e
 #
 # STI assemble script for the 'sti-builder-test' image.
