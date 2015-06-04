@@ -27,3 +27,6 @@ cp -Rf /tmp/src/* ./
 echo "---> Building application from source"
 # TODO: Add build steps for your application, for example npm install or
 #       bundle install, etc...
+
+echo 'building....'
+echo 'built'
